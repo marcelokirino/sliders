@@ -16,9 +16,6 @@ header {
 }
 
 .slider_area {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width:900px;
     overflow: hidden;
     margin-top: 30px;
@@ -30,6 +27,7 @@ header {
     display: flex;
     justify-content:center;
     align-items:center;
+    transition: all ease 0.5s;
     
 }
 
@@ -47,6 +45,8 @@ header {
     position:absolute;
     z-index: 99;
     width: 900px;
+    align-self: center;
+    height: 500px;
 }
 
 .slider_control {
@@ -55,6 +55,7 @@ header {
     margin-left:10px;
     margin-right:10px;
     cursor: pointer;   
+    
 }
 
 .slider_control:hover {
